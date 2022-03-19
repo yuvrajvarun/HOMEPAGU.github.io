@@ -127,6 +127,12 @@ $datapc=mysqli_fetch_assoc($resultpc);
                              <p>Rs:<strike><?php echo $datap['MRP'];?></strike><?php echo" "; echo $datap['C_A_D'];?><p><?php echo number_format($dsp,1)."%off";?></p></p></a> 
                      <a  href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>" class="btn btn-primary">DETAILS</a>
                          <a  href="singlybuy.php?id=<?php echo $datap['PRODUCT_ID']; ?>" class="btn btn-primary">BUY NOW</a> </td>
+			     
+			      <td>          
+               <a style="text-decoration:none" target="_blank" href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>"><img src="<?php echo $datap['PRODUCT_IMAGE']?>"  height="100" width="100">
+                             <p>Rs:<strike><?php echo $datap['MRP'];?></strike><?php echo" "; echo $datap['C_A_D'];?><p><?php echo number_format($dsp,1)."%off";?></p></p></a> 
+                     <a  href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>" class="btn btn-primary">DETAILS</a>
+                         <a  href="singlybuy.php?id=<?php echo $datap['PRODUCT_ID']; ?>" class="btn btn-primary">BUY NOW</a> </td>
                                          </center>   
                         </div> 
                                                 
