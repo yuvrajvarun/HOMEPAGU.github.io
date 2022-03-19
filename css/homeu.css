@@ -4,7 +4,7 @@
  box-sizing: border-box;
 }
 body{
-	background-image: url("../handimg/Vcart.PNG") ; 
+	background-image: url("handimg/Vcart.PNG") ; 
 	background-size: cover;
    background-repeat: no repeat;
 }
