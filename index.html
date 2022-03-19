@@ -114,10 +114,7 @@ $datapc=mysqli_fetch_assoc($resultpc);
          
 	 	<div class="container">
             <div class="row">
-                      <?php $qryp="select * from product order by C_A_D asc";
-                                             $resultp=mysqli_query($conn,$qryp);
-                                                if(mysqli_num_rows($resultp)>0)
-                                                 { ?><td> <div class="pbox" >
+                     <td> <div class="pbox" >
                                  <div class="box"  >                                  
                                  <center>   <td>          
                <a style="text-decoration:none" target="_blank" href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>"><img src="<?php echo $datap['PRODUCT_IMAGE']?>"  height="100" width="100">
