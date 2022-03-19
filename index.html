@@ -123,18 +123,39 @@ $datapc=mysqli_fetch_assoc($resultpc);
                      <td> <div class="pbox" >
                                  <div class="box"  >                                  
                                  <center>   <td>          
-               <a style="text-decoration:none" target="_blank" href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>"><img src="<?php echo $datap['PRODUCT_IMAGE']?>"  height="100" width="100">
+               <a style="text-decoration:none" target="_blank" href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>"><img src="handimg/shoe.jpg"  height="100" width="100">
                              <p>Rs:<strike><?php echo $datap['MRP'];?></strike><?php echo" "; echo $datap['C_A_D'];?><p><?php echo number_format($dsp,1)."%off";?></p></p></a> 
                      <a  href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>" class="btn btn-primary">DETAILS</a>
                          <a  href="singlybuy.php?id=<?php echo $datap['PRODUCT_ID']; ?>" class="btn btn-primary">BUY NOW</a> 
 			     </center>
-			    </div>  </div> 
+			  
                                                 
-                                    <?php
-                                                       } ?></td></div> <?php
-            
-                                                }  
-                                            ?>
+			     </td></div>
+			
+			<div class="box"  >                                  
+                                 <center>   <td>          
+               <a style="text-decoration:none" target="_blank" href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>"><img src="handimg/sliper.jpg"  height="100" width="100">
+                             <p>Rs:<strike><?php echo $datap['MRP'];?></strike><?php echo" "; echo $datap['C_A_D'];?><p><?php echo number_format($dsp,1)."%off";?></p></p></a> 
+                     <a  href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>" class="btn btn-primary">DETAILS</a>
+                         <a  href="singlybuy.php?id=<?php echo $datap['PRODUCT_ID']; ?>" class="btn btn-primary">BUY NOW</a> 
+			     </center>
+			  
+                                                
+			     </td></div>
+	
+	   <div class="box"  >                                  
+                                 <center>   <td>          
+               <a style="text-decoration:none" target="_blank" href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>"><img src="handimg/mobiles.jpg"  height="100" width="100">
+                             <p>Rs:<strike><?php echo $datap['MRP'];?></strike><?php echo" "; echo $datap['C_A_D'];?><p><?php echo number_format($dsp,1)."%off";?></p></p></a> 
+                     <a  href="single.product.php?id=<?php echo $datap['PRODUCT_ID']; ?>" class="btn btn-primary">DETAILS</a>
+                         <a  href="singlybuy.php?id=<?php echo $datap['PRODUCT_ID']; ?>" class="btn btn-primary">BUY NOW</a> 
+			     </center>
+			  
+                                                
+			     </td></div>
+			
+			
+		</div>
                 
             
         </div>
